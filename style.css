@@ -1,0 +1,68 @@
+
+.containers{
+    
+    background-color: white;
+    position: absolute;
+    top:20%;
+    left: 35%;
+    width:380px;
+    height: 390px;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+body{
+    background-color: #e6bcee;
+}
+#head{
+    font-size: 30px;
+    color: #e6bcee;
+    position: relative;
+}
+#gsearch{
+    opacity: 0.4;
+    height: 30px;
+    width:70%;
+    border:none;
+    outline:none;
+    font-size: 16px;
+    border-bottom: 2px solid #e6bcee;
+}
+#sub{
+    padding: 7px 5px;
+    width:25%;
+    border-radius: 3px;
+    background-color: #e6bcee ;
+    color: white;
+    outline:none;
+    border:none;
+    font-size: 15px;
+}
+#name {
+    font-size: 40px;
+    display: inline-block;
+    position: absolute;
+    padding-top: 25px;
+    padding-left: 40px;
+}
+.details{
+    font-size: 20px;
+    color: #582139;
+}
+#error{
+    font-size:20px;
+}
+@media only screen and (max-width: 720px){
+    .containers{
+        left:5%;
+        width:87%;
+        height:50%;
+    }
+}
+
+@media only screen and (max-width: 375px){
+.containers {
+    left: 1%;
+    width: 100%;
+    height: 68%;
+}
+}
